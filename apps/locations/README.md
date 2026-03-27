@@ -72,3 +72,7 @@ Easily start your REST Web Services
 Easily start your RESTful Web Services
 
 [Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
+
+
+
+./mvnw clean package -Dquarkus.kubernetes.deploy=true
