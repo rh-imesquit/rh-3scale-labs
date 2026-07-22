@@ -1,6 +1,5 @@
 name: 3scale
 namespace: 3scale
-nodeSelector: app=3scale
 
 # domain a ser usado
 wildcardDomain: apps.ocp4lab.imesquit.tamlab.rdu2.redhat.com
