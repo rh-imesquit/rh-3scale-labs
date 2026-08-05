@@ -7,10 +7,10 @@ wildcardDomain: apps.ocp4lab.imesquit.tamlab.rdu2.redhat.com
 # componentes que serão externalizados
 externalComponents:
   backend:
-    redis: false
+    redis: true
   system:
     database: true
-    redis: false
+    redis: true
   zync:
     database: false
 

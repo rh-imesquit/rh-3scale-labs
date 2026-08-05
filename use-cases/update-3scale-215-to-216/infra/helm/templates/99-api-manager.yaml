@@ -8,8 +8,8 @@ metadata:
     {{- include "threescale.labels" . | nindent 4 }}
   annotations:
     argocd.argoproj.io/sync-wave: "99"
-    apps.3scale.net/apimanager-threescale-version: 2.15.5
-    apps.3scale.net/threescale-operator-version: 0.12.5
+    apps.3scale.net/apimanager-threescale-version: 2.16.4
+    apps.3scale.net/threescale-operator-version: 0.13.4
 spec:
   wildcardDomain: {{ .Values.wildcardDomain }}
   {{- if .Values.apicast }}
