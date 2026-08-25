@@ -12,6 +12,7 @@ metadata:
     apps.3scale.net/threescale-operator-version: 0.13.4
 spec:
   wildcardDomain: {{ .Values.wildcardDomain }}
+  disablePreflightChecks: {{ .Values.disablePreflightChecks }} 
   {{- if .Values.apicast }}
   apicast:
     {{- toYaml .Values.apicast | nindent 4 }}
