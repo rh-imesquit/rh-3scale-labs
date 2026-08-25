@@ -4,6 +4,8 @@ namespace: 3scale
 # domain a ser usado
 wildcardDomain: apps.ocp4lab.imesquit.tamlab.rdu2.redhat.com
 
+disablePreflightChecks: true
+
 # componentes que serão externalizados
 externalComponents:
   backend:
